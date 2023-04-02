@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    transition: all 0.3s linear;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 128px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content span {
+    font-size: 48px;
+}
+
+.contentWhite {
+    background-color: white;
+    color: black;
+}
+
+.contentBlack {
+    background-color: black;
+    color: white;
+    clip-path: polygon(42% 0%, 100% 0%, 100% 100%, 57% 100% );
+}
